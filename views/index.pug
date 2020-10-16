@@ -1,0 +1,65 @@
+extends layout
+
+block content
+  h1= 'Peliculas disponibles'
+  <br>
+    <div class="container">
+  <div class="row">
+    <div class="col-sm">
+    <div class="card" style="width: 18rem;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnjDM3cO-cR72Cy-k_fZ4zHzu9pMZZGbutd6CaSVSDVn2TNOSk" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Era de Ultron</h5>
+    <p class="card-text">Los Vengadores se reúnen de nuevo y juntan sus fuerzas con las de los recién llegados Quicksilver y Bruja Escarlata para luchar contra un robot maquiavélico llamado Ultrón.</p>
+    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver mas </a>
+  </div>
+  </div>
+    </div>
+  <div class="col-sm">
+   <div class="card" style="width: 18rem;">
+  <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSOV0JVW82VnxHBgHu1syHyD_cTSYAgLr76gw9ejI4cmySydjmw" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Infinity War</h5>
+    <p class="card-text">Los superhéroes se alían para vencer al poderoso Thanos, el peor enemigo al que se han enfrentado. Si Thanos logra reunir las seis gemas del infinito nadie podrá detenerlo.</p>
+    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver mas </a>
+  </div>
+  </div>
+  </div>
+  <div class="col-sm">
+  <div class="card" style="width: 18rem;">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/A1inGqJJHXL._AC_SL1500_.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Avengers EndGame</h5>
+    <p class="card-text">Los Vengadores restantes deben encontrar una manera de recuperar a sus aliados para un enfrentamiento épico con Thanos, el malvado que diezmó el planeta y el universo.</p>
+    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Ver mas </a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ups... Algo salio mal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+         Esta Pelicula no esta disponible
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
